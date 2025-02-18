@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potharaju Praneeth - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo">Potharaju Praneeth</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container">
+            <div class="hero-content">
+                <img src="final.jpg" alt="Your Name" class="hero-photo">
+                <h1>Potharaju Praneeth</h1>
+                <p>Computer Science Student - Learning Enthusiast</p>
+                <div class="social-links">
+                    <a href="mailto:p.praneeth9224@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+916304094405" class="social-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="https://github.com/praneeth-potharaju" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/praneeth-potharaju/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/praneeth00007/" target="_blank" class="social-link">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>B.Tech in Computer Science</h3>
+                    <p class="institution">SR Gudlavalleru Engineering College</p>
+                    <p class="period">2021 – 2025 | Gudlavalleru, India</p>
+                    <p class="score">CGPA - 8.76</p>
+                </div>
+                <div class="education-card">
+                    <h3>Intermediate Education – Class 12</h3>
+                    <p class="institution">Pavitra Co-operative Junior College</p>
+                    <p class="period">2019 – 2021 | Machilipatnam, India</p>
+                    <p class="score">Percentage - 96%</p>
+                </div>
+                <div class="education-card">
+                    <h3>10th Standard</h3>
+                    <p class="institution">Dr.KKR's gowtham concept school</p>
+                    <p class="period">2018 – 2019 | Machilipatnam, India</p>
+                    <p class="score">GPA - 9.7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend Technologies</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Technologies</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>FastAPI</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>SQLite</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <ul>
+                        <li>Web Scraping (BeautifulSoup, Scrapy)</li>
+                        <li>Selenium</li>
+                        <li>Data Structures & Algorithms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>YouTube Video Transcript Summarization</h3>
+                    <p>An LLM based time saving personal utility project that summarizes YouTube videos</p>
+                    <ul>
+                        <li>Utilized React to create a dynamic UI. Implemented the backend using FastAPI for API handling and MongoDB for data storage.</li>
+                        <li>Integrated Hugging Face Transformers summarization pipeline using bart-large-cnn and google-t5 family of LLMs.</li>
+                        <li>Technologies: Transformers, Python, FastAPI, React, MongoDB, youtube-transcript-api</li>
+                    </ul>
+                    <a href="https://github.com/praneeth-potharaju/YouTube-video-transcript-summarizer" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>Content-Based Movie Recommendation System</h3>
+                    <ul>
+                        <li>Developed using BERT embeddings, PCA, and One-Hot Encoding to analyze descriptions and genres.</li>
+                        <li>Implemented KNN with cosine similarity for personalized movie suggestions.</li>
+                        <li>Technologies: Python,Transformers, NumPy, Pandas, Scikit-learn, PyTorch(For Embeddings).</li>
+                    </ul>
+                    <a href="https://github.com/praneeth-potharaju/Content-Based-Movie-Recommendation-System-Using-Embedding" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>Optimized Infinite Scrolling</h3>
+                    <ul>
+                        <li>Implemented infinite scrolling with user scroll-speed detection for dynamic product loading.</li>
+                        <li>Added adaptive loading mechanisms for varying scroll speeds.</li>
+                        <li>Technologies: React.js, Express.js, Node.js, Intersection Observer API, MongoDB</li>
+                    </ul>
+                    <a href="https://github.com/praneeth-potharaju/Optimized-Infinite-Scrolling-with-Adaptive-Loading-Techniques" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>Interactive Emoji Game</h3>
+                    <ul>
+                        <li>Interactive game with unique emoji clicking mechanics</li>
+                        <li>Score tracking and game state management</li>
+                        <li>Responsive design with smooth animations</li>
+                    </ul>
+                    <a href="https://github.com/praneeth-potharaju/emoji-game" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>FAQ management system</h3>
+                    <ul>
+                        <li>Django-based multilingual FAQ management system with auto-translation (English, Hindi, Bengali)</li>
+                        <li>Key features: multi-language support, automatic translations, fallback to English, caching, rich text editor</li>
+                        <li>Technologies: Django, googletrans, CKEditor, Redis for caching.</li>
+                    </ul>
+                    <a href="https://github.com/praneeth-potharaju/django-faq-app" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>ShopEase</h3>
+                    <ul>
+                        <li>ShopEase is an advanced e-commerce platform designed to streamline online shopping.</li>
+                        <li>Crafted to replicate a real-world online shopping journey, allowing users to explore a wide range of products.</li>
+                        <li>Key features:Secure Authentication, Intuitive Navigation, Dynamic Product Interaction, Resilient Data Handling</li>
+                    </ul>
+                    <a href="https://github.com/praneeth-potharaju/nxtcart" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-card">
+                <h3>Data Engineering Intern</h3>
+                <p class="company">Garuda Prakashan Pvt. Ltd.</p>
+                <p class="period">November 2024 – January 2025</p>
+                <ul>
+                    <li>Developed and implemented ETL processes using Python and Selenium</li>
+                    <li>Automated data extraction from sub-dealer platforms for e-commerce platform</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <div class="container">
+            <h2>Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <h3>NxtWave | CCBP 4.0 Academy</h3>
+                    <ul>
+                        <li>Python Certification</li>
+                        <li>Introduction To Databases Certification</li>
+                        <li>Javascript Essentials Certification</li>
+                        <li>Node.js Certification</li>
+                        <li>React JS Certification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-grid">
+                <a href="mailto:p.praneeth9224@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>p.praneeth9224@gmail.com</p>
+                </a>
+                <a href="tel:+916304094405" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+91 6304094405</p>
+                </a>
+                <a href="https://github.com/praneeth-potharaju" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>praneeth-potharaju</p>
+                </a>
+                <a href="https://www.linkedin.com/in/praneeth-potharaju/" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>praneeth-potharaju</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Potharaju Praneeth. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
