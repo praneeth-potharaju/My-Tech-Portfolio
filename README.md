@@ -18,46 +18,14 @@ You can view my tech portfolio live here:
 ## Technologies Used
 
 - **Frontend:**
-  - React.js
   - CSS3
   - HTML5
-  - Tailwind CSS (for responsive design)
-  - AOS (for animations on scroll)
-  
-- **Backend (if applicable for your project):**
-  - Node.js (optional)
-  - Express.js (optional)
+  - JavaScript
+
   
 - **Deployment:**
   - Vercel (for hosting and continuous deployment)
 
-## Installation
-
-To run this project locally, follow the steps below:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/tech-portfolio.git
-    ```
-
-2. Navigate to the project folder:
-    ```bash
-    cd tech-portfolio
-    ```
-
-3. Install the required dependencies:
-    ```bash
-    npm install
-    ```
-
-4. Run the project:
-    ```bash
-    npm start
-    ```
-
-This will start the development server on `http://localhost:3000`, and you can view your project locally.
-
-## Contributing
 
 Feel free to fork this repository and submit a pull request if you'd like to contribute. If you have any questions or suggestions, don't hesitate to open an issue.
 
